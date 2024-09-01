@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f4eeff;
+}
+
+/* #A6B1E1 slight light than button text */
+button {
+  background-color: #a6b1e1;
+  color: #424874;
+  border: 0;
+  outline: 0;
+  width: 120px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+div.buttons {
+  padding: 50px;
+}
+
+#toast-box {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+}
