@@ -52,3 +52,9 @@ div.buttons {
   display: flex;
   align-items: center;
 }
+
+.toast i {
+  margin: 0 20px;
+  font-size: 35px;
+  color: var(--primary-color);
+}
