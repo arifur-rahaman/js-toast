@@ -12,16 +12,13 @@
   </head>
   <body>
     <div class="buttons">
-      <button onclick="showToast()">Success</button>
-      <button onclick="showToast()">Error</button>
-      <button onclick="showToast()">Invalid</button>
+      <button onclick="showToast(successFull)">Success</button>
+      <button onclick="showToast(errorMsg)">Error</button>
+
+      <button onclick="showToast(invalidInput)">Invalid</button>
     </div>
 
-    <div id="toast-box">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, cumque?
-      </p>
-    </div>
+    <div id="toast-box"></div>
 
     <script src="app.js"></script>
   </body>
