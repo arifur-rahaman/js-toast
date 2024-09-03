@@ -12,4 +12,18 @@ function showToast(massage) {
   toast.classList.add("toast");
   toast.innerHTML = massage;
   toastBox.appendChild(toast);
+
+  if (massage.includes("error")) {
+    toast.classList.add("error");
+  }
+  if (massage.includes("Invalid")) {
+    toast.classList.add("invalid");
+  }
+  if (massage.includes("Success")) {
+    toast.classList.add("success");
+  }
+
+  setTimeout(() => {
+    toast.remove(); /**after 6 second toast div will be removed */
+  }, 6000);
 }

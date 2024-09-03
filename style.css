@@ -48,7 +48,7 @@ div.buttons {
   background-color: var(--secondary-color);
   font-weight: 500;
   margin: 15px 0;
-  box-shadow: 0 0.2rem 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.2rem 20px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
 }
@@ -57,4 +57,16 @@ div.buttons {
   margin: 0 20px;
   font-size: 35px;
   color: var(--primary-color);
+}
+
+.toast.error i {
+  color: red;
+}
+
+.toast.invalid i {
+  color: orange;
+}
+
+.toast.success i {
+  color: green;
 }
